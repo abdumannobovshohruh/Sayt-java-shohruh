@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: brown;
+}
+.nameS{
+    text-align: center;
+    padding-top: 10px;
+}
+.nameB{
+    width: 100%;
+    background-color: brown;
+    border: none;
+}
+.card{
+    background-color:darksalmon  ;
+}
+.zeron{
+    color: burlywood;
+}
+.zeron2{
+    color: red;
+}
+.enter{
+    /* background-color: rgb(255, 255, 255); */
+    padding: 10px;
+    border: none;
+    margin: 0;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    z-index: 5;
+    /* transform: translateX(-100%); */
+    /* width: 350px; */
+}
+.enter2{
+    display: inline;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 10px;
+    border: none;
+    margin: 0;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    z-index: 5;
+    /* transform: translateX(-100%); */
+    /* width: 350px; */
+    /* display: none; */
+}
+
+.menu{
+    width: 350px;
+    background-color: rgb(17, 18, 18);
+    height: 400px;
+    /* display:  none; */
+}
