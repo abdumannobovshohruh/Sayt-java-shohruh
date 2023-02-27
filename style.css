@@ -31,10 +31,10 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    transition: 1s;
-    z-index: 5;
+    /* transition: 1s; */
+    /* z-index: 5; */
     /* transform: translateX(-100%); */
-    width: 350px;
+    /* width: 350px; */
 }
 .enter2{
     display: inline;
@@ -44,11 +44,11 @@ body{
     margin: 0;  
     position: fixed;
     top: 0;
-    left: 0;
-    transition: 1s;
-    z-index: 5;
+    left: 350px;
+    /* transition: 1s; */
+    /* z-index: 5; */
     /* transform: translateX(-100%); */
-    width: 350px;
+    /* width: 350px; */
     /* display: none; */
 }
 
@@ -57,5 +57,5 @@ body{
     background-color: rgb(17, 18, 18);
     height: 400px;
     /* display:  none; */
-    transition: 500px;
+    transform: 500px;
 }
