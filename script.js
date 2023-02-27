@@ -10,15 +10,15 @@ card.style.border = "3px solid white"
 card.style.backgroundColor = "blue"
 card.style.marginTop = "50px"
 nameS.style.color = "white"
+menu.style.height = "500px"
 
-enter2.onclick = () => {
-   enter2.style.display = "none"
-}
-menu.onclick = () => {
-    menu.style.display  = "none"    
-    menu.style.backgroundColor = "black"
-    menu.style.translate = "-500px"   
-}
-enter.ondblclick = () => {
+enter.onclick = () => {
     enter.style.display = "none"
+    enter2.style.display = "block"
+    menu.style.display = "block"
+}
+enter2.onclick = () => {
+    enter2.style.display = "none"
+    enter.style.display = "block"
+    menu.style.display = "none"
 }

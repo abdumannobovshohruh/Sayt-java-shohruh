@@ -34,7 +34,7 @@ body{
     transition: 1s;
     z-index: 5;
     /* transform: translateX(-100%); */
-    /* width: 350px; */
+    width: 350px;
 }
 .enter2{
     display: inline;
@@ -48,7 +48,7 @@ body{
     transition: 1s;
     z-index: 5;
     /* transform: translateX(-100%); */
-    /* width: 350px; */
+    width: 350px;
     /* display: none; */
 }
 
@@ -57,4 +57,5 @@ body{
     background-color: rgb(17, 18, 18);
     height: 400px;
     /* display:  none; */
+    transition: 500px;
 }
