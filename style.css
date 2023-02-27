@@ -58,4 +58,5 @@ body{
     height: 400px;
     /* display:  none; */
     transform: 500px;
+    position: fixed;
 }
